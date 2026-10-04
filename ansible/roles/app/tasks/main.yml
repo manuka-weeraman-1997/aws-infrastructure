@@ -1,0 +1,27 @@
+---
+- name: Install required packages
+  package:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - java-17-openjdk
+    - firewalld
+
+- name: Deploy application artifact
+  unarchive:
+    src: "{{ app_artifact_url }}"
+    dest: /opt/app
+    remote_src: true
+
+- name: Template application config
+  template:
+    src: config.ini.j2
+    dest: /opt/app/config/config.ini
+    mode: "0640"
+  notify: restart app
+
+- name: Ensure application service is running
+  systemd:
+    name: app
+    state: started
+    enabled: true
