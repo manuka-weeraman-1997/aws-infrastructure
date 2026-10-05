@@ -84,5 +84,6 @@ The Azure counterpart is [`azure-infrastructure/event-hubs`](https://github.com/
 | Compatibility matrix | [compatibility-matrix.md](https://github.com/manuka-weeraman-1997/msk-vs-azure-event-hubs/blob/main/migration/compatibility-matrix.md) |
 | Production checklist | [production-checklist.md](https://github.com/manuka-weeraman-1997/msk-vs-azure-event-hubs/blob/main/docs/production-checklist.md) |
 | Cost considerations | [cost-considerations.md](https://github.com/manuka-weeraman-1997/msk-vs-azure-event-hubs/blob/main/docs/cost-considerations.md) |
+| Medium article | [Amazon MSK vs Azure Event Hubs: Same Event Flow, Different Engines](https://medium.com/@manukaweeraman/amazon-msk-vs-azure-event-hubs-same-event-flow-different-engines-46dcf08bd828) |
 
 Everything is also in one place in [`msk-vs-azure-event-hubs`](https://github.com/manuka-weeraman-1997/msk-vs-azure-event-hubs).
