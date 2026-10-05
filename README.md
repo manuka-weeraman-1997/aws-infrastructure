@@ -16,4 +16,6 @@ See [`aws-log-backup`](https://github.com/manuka-weeraman-1997/aws-log-backup) f
 
 See [`azure-infrastructure`](https://github.com/manuka-weeraman-1997/azure-infrastructure) for the same patterns implemented on Azure.
 
+For a full streaming walkthrough, see [`msk/`](msk) (Python producer and consumer, Terraform, diagrams) and the cross-cloud write-up [`msk-vs-azure-event-hubs`](https://github.com/manuka-weeraman-1997/msk-vs-azure-event-hubs): Amazon MSK compared with Azure Event Hubs, with a migration guide and compatibility matrix.
+
 Author: Manuka Weeraman — Platform Engineer
